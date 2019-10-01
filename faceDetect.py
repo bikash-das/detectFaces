@@ -24,7 +24,6 @@ cv2.imshow("detected face", image)
 
 cv2.imwrite('detectedface.jpeg',image)
 # cv2.imshow("newimage",grayImage)
-img = cv2.imread('detectedface.jpeg')
-cv2.imshow('face', img)
+
 
 cv2.waitKey(0)
